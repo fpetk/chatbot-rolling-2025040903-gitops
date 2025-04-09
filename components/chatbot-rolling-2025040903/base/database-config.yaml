@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: chatbot-rolling-2025040903-database-config
+data:
+  VECTORDB_HOST: "chatbot-rolling-2025040903-database"
+  VECTORDB_PORT: ""

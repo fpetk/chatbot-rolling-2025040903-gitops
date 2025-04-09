@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: chatbot-rolling-2025040903-model-config
+data:
+  MODEL_ENDPOINT: "http://chatbot-rolling-2025040903-model-server:8001"

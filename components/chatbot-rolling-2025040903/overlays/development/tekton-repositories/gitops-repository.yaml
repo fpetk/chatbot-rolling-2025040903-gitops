@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: chatbot-rolling-2025040903-gitops-repository
+spec:
+  url: https://github.com/fpetk/chatbot-rolling-2025040903-gitops

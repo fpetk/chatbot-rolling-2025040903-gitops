@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  labels:
+    app.kubernetes.io/instance: chatbot-rolling-2025040903
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: chatbot-rolling-2025040903
+  name: chatbot-rolling-2025040903
+spec:
+  accessModes:
+    - ReadWriteOnce
+  volumeMode: Filesystem
+  resources:
+    requests:
+      storage: 100Gi
